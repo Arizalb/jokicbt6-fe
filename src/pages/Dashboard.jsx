@@ -60,7 +60,7 @@ const Dashboard = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/kisikisi_puteri.pdf";
-    link.download = "kisikisi_puteri.pdf";
+    link.download = "kisi-kisi.pdf";
     link.click();
   };
 
