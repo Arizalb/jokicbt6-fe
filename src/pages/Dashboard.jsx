@@ -59,8 +59,8 @@ const Dashboard = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/kisi-kisi-ilma.pdf";
-    link.download = "kisi-kisi-ilma.pdf";
+    link.href = "/kisikisi_puteri.pdf";
+    link.download = "kisikisi_puteri.pdf";
     link.click();
   };
 
